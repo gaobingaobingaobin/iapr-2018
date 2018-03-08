@@ -26,6 +26,7 @@ Please find below the material you'll find in this repository:
 
 [epfl]: https://www.epfl.ch/
 [edu]: https://edu.epfl.ch/coursebook/en/image-analysis-and-pattern-recognition-EE-451
+[t01]: tutorials/tuto_01_basic_img_proc.ipynb
 
 ## Installation instructions
 
@@ -53,10 +54,13 @@ for the course:
    `git clone https://github.com/LTS5/iapr-2018`.
 1. It is recommended to create an environment dedicated to this course with
    `conda create -n iapr2018 python=3.6`.
-1. Activate the environment with `source activate iapr2018`
-   (or `activate iapr2018`, or `conda activate iapr2018`).
-1. Install the packages we will be using for this course with
-   `pip install --upgrade -r requirements.txt`
+1. Activate the environment:
+   * Linux/macOS: `source activate iapr2018`.
+   * Windows: `activate iapr2018`.
+1. Install the packages we will be using for this course:
+   * Linux/macOS: `pip install --upgrade -r requirements.txt`
+   * Windows: `conda install --file requirements.txt`
+1. You can deactivate the environment whenever you are done with `deactivate`
    
 [git]: https://git-scm.com
 [python]: https://www.python.org
@@ -75,7 +79,8 @@ We suggest two different Python editors, but many more are available:
    We encourage to use it for the lab assignments.
    To launch a Jupyter Notebook:
    * Open a terminal (for Windows open the Anaconda Prompt)
-   * Activate the environment with `source activate iapr2018`
+   * Activate the environment with `source activate iapr2018` (For Windows:
+   `activate iapr2018`)
    * Run the command: `jupyter notebook`.
 1. [PyCharm] is an excellent Python IDE developed by [JetBrains].
    It is more suitable for large projects than Jupyter, hence it might be
