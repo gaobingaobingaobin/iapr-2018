@@ -20,9 +20,9 @@ This repository contains the material for the labs and project associated with
 the [EPFL] master course
 [EE-451 Image Analysis and Pattern Recognition][edu].
 
-Please find below the material you'll find in this repository:
+Please find below the list of material accessible from this repository:
 1. [Installation instructions](#installation-instructions)
-2. [Basic image processing tutorial]([t01])
+2. [Basic image processing tutorial][t01]
 
 [epfl]: https://www.epfl.ch/
 [edu]: https://edu.epfl.ch/coursebook/en/image-analysis-and-pattern-recognition-EE-451
@@ -44,10 +44,10 @@ for the course:
    and install with default settings.
    Skip this step if you have conda already installed (from [Miniconda] or
    [Anaconda]).
+   Linux users may prefer to use their package manager.
    * Windows: Double-click on the `.exe` file.
    * macOS: Double-click on the `.pkg` file.
    * Linux: Run `bash Anaconda3-latest-Linux-x86_64.sh` in your terminal.
-   Linux users may prefer to use their package manager.
 1. Open a terminal. For Windows: open the Anaconda Prompt from the Start menu.
 1. Install git if not already installed with `conda install git`.
 1. Download this repository by running
