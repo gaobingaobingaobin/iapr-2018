@@ -22,11 +22,13 @@ the [EPFL] master course
 
 Please find below the list of material accessible from this repository:
 1. [Installation instructions](#installation-instructions)
-2. [Basic image processing tutorial][t01]
+1. [Basic image processing tutorial][t01]
+1. [Lab 1: image segmentation][l01]
 
 [epfl]: https://www.epfl.ch/
 [edu]: https://edu.epfl.ch/coursebook/en/image-analysis-and-pattern-recognition-EE-451
 [t01]: tutorials/tuto_01_basic_img_proc.ipynb
+[l01]: labs/lab_01_segmentation.ipynb
 
 ## Installation instructions
 
